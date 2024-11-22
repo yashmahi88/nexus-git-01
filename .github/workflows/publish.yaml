@@ -5,7 +5,7 @@ on:
     branches:
       - development
       - release
-      - master
+      
     tags:
       - '*'
 
