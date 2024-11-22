@@ -21,4 +21,4 @@ jobs:
         uses: yashmahi88/publish-.net@v1
         with:
           dotnet-version: '8.0.x'
-           
+            
