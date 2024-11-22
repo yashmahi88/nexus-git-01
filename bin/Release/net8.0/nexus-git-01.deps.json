@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "nexus-git-01/1.0.0": {
+        "runtime": {
+          "nexus-git-01.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "nexus-git-01/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
