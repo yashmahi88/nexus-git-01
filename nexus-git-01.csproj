@@ -6,6 +6,8 @@
     <RootNamespace>nexus_git_01</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>$(PackageVersion)</Version>   
+    <PackageId>$(CustomPackageId)</PackageId> 
   </PropertyGroup>
 
 </Project>
