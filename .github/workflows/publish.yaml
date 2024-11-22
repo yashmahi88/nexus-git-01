@@ -1,0 +1,23 @@
+name: Publish .NET Package
+
+on:
+  push:
+    branches:
+      - development
+      - release
+      - main
+    tags:
+      - '*'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Publish .NET Package
+        uses: yashmahi88/publish-.net@v1
+        with:
+          dotnet-version: '8.0.x'
